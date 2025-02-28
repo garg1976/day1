@@ -3,7 +3,7 @@ import Child1 from "./Component/Child1";
 import React, { useState } from "react";
 // import FirstContext from "./context/FirstContext";
 // import React, { useState, useEffect } from "react";
-//import Child2 from "./Component/Child2";
+// import Child2 from "./Component/Child2";
 
 const App=()=>{
 

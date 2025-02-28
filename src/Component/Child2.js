@@ -1,6 +1,6 @@
 import React from "react";
 import Child3 from "./Child3";
-import FirstContext from "../../Context/FirstContext";
+// import FirstContext from "../../Context/FirstContext";
 
 const Child2 = ({ getData }) => {
   const styles = {

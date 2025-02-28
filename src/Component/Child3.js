@@ -1,9 +1,9 @@
 import React from 'react'
 import { useContext } from 'react';
-import { FirstContext } from '../../Context/FirstContext';
+// import { FirstContext } from '../../Context/FirstContext';
 const Child3 = ({getData}) => {
     // const  {firstName, LastName, otherData, combineData}
-   const data = useContext(FirstContext)
+   const data = useContext(useContext)
     //  //accessing data from the context
     const styles = {
         border: "1px solid black",
@@ -13,7 +13,7 @@ const Child3 = ({getData}) => {
       console.log(data, "data")
   return (
     <div style={styles}>I am Child3
-<button onClick={() =>data.combineData("nikita","sharma")}>send data to parent</button>
+        <button onClick={getData}>Get Data from Parent</button>
     </div>
   )
 }

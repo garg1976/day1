@@ -1,5 +1,5 @@
 import { createContext } from "react";
-
+// import {FirstContext} from "react";
 
 // Definition of the context
 const FirstContext = createContext({
@@ -7,6 +7,7 @@ const FirstContext = createContext({
     lastName: "",
     otherData: "",
     combineData: () => {},
+
 });
 
 // Exporting the context
