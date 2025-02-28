@@ -5,20 +5,18 @@ import React, { useState } from "react";
 // import React, { useState, useEffect } from "react";
 //import Child2 from "./Component/Child2";
 
-
 const App=()=>{
 
   const[firstName, setfirstName]= useState("")
   const[LastName, setLastName] =  useState("")
   const[otherData, setOtherData]= useState("")
 
-  const styles=
-  {
+  const styles = {
     border: "1px solid black",
     margin: "50px 50px 50px 50px",
     padding: "50px 50px 50px 50px",
   };
-
+  
   const getData = (data) =>{
     console.log("data recived sucessfully", data)
   }
