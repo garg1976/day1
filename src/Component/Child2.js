@@ -14,3 +14,4 @@ const Child2 = ({getData}) => {
   )
 }
 export default Child2
+

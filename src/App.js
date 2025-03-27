@@ -18,6 +18,13 @@ const App = () => {
     border: "1px solid black",
     margin: "50px 50px 50px 50px",
     padding: "50px 50px 50px 50px",
+    fontWeight: "bold",
+    fontSize: "24px",
+    color: "red",
+    backgroundColor: "yellow",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   };
 
   const getData = (data) =>{
@@ -36,7 +43,7 @@ setOtherData(fName+Lname+"He/She is from India and above 18yr of Age")
     <FirstContext.Provider value={{firstName,LastName,otherData, combineData}}>
     {/* .provider apki puri application ko data provide krwata hai */}
        <div style={styles}> 
-      App
+      
       <Child1 getData={getData}/>
     </div>
     </FirstContext.Provider>

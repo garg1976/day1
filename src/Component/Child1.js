@@ -6,6 +6,7 @@ const Child1 = ({getData}) => {
         border: "1px solid black",
         margin: "50px 50px 50px 50px",
         padding: "50px 50px 50px 50px",
+        backgroundColor: "lightblue"
       };
   return (
     <div style={styles}>Child1
